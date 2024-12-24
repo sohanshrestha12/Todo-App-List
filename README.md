@@ -50,26 +50,20 @@ Create a .env file in the root directory and add the following:
 ```bash
 DATABASE_URL="file:./dev.db"
 ```
-Do not forget to create this database file:
 
-```bash
-cd prisma
-touch dev.db
-```
-
-### 4. Migrate the Database
+### 3. Migrate the Database
 
 ```bash
 npx prisma db push
 ```
 
-### 5. Prisma Studio
+### 4. Prisma Studio
 Last, you can always check the database with Prisma Studio:
 
 ```bash
 npx prisma studio
 ```
 
-### Deployment
+### 5. Deployment
 
 **Live URL:**   
