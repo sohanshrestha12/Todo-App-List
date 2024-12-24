@@ -87,3 +87,9 @@ To make this work, I'll need to switch to a database solution that is compatible
 ![Screenshot 2024-12-24 142550](https://github.com/user-attachments/assets/66be7d8f-6765-4661-a74b-5d80a787e188)
 
 ![Screenshot 2024-12-24 142944](https://github.com/user-attachments/assets/75efb523-0cdd-4d13-af47-1c24b5865f01)
+
+### Future Improvements
+
+- User authentication.
+- Task prioritization.
+- Due date for tasks.
