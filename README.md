@@ -80,4 +80,7 @@ In serverless environments, each function instance is isolated and does not shar
 
 **Next Steps**:
 
-To make this work, I'll need to switch to a database solution that is compatible with serverless platforms, such as MySQL, PostgreSQL, 
+To make this work, I'll need to switch to a database solution that is compatible with serverless platforms, such as MySQL, PostgreSQL.
+
+### Screenshot
+
