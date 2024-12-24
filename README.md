@@ -31,6 +31,45 @@ Before running the application, make sure you have the following installed:
 ```bash
 git clone https://github.com/sohanshrestha12/Todo-App-List.git
 cd todo-app
+```
 
 ### 2. Install Dependencies
 
+Install the required dependencies using npm or yarn:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 2. Set Up Environment Variables
+
+Create a .env file in the root directory and add the following:
+
+```bash
+DATABASE_URL="file:./dev.db"
+```
+Do not forget to create this database file:
+
+```bash
+cd prisma
+touch dev.db
+```
+
+### 4. Migrate the Database
+
+```bash
+npx prisma db push
+```
+
+### 5. Prisma Studio
+Last, you can always check the database with Prisma Studio:
+
+```bash
+npx prisma studio
+```
+
+### Deployment
+
+**Live URL:**   
